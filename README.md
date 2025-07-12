@@ -3,8 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Profile Page</title>
+    <title>The Great Sea Tours</title>
     <style>
+        /*we'll add CSS here later*/
+    </style> 
+</head>
+<body>  
         body {
             font-family: Arial, sans-serif;
             max-width: 800px;
