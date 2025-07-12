@@ -33,57 +33,31 @@
            <h2>About Us</h2>
            <p>Welcome to our website! Here you'll find <span style="font-size: 1.2em;">amazing content</span>
         about web development.</p>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f0f0f0;
-        }
-       
-        h1 {
-            color: #2c3e50;
-            text-align: center;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 20px auto;
-            border-radius: 8px;
-        }
-        
-        a {
-            color: #3498db;
-            text-decoration: none;
-        }
+       </div>
 
-        a:hover {
-            text-decoration: underline;
-        }
+       <div class="services section" id="services">
+           <h2>Our Services</h2>
+           <p>We Specialize in:</p>
+           <ul>
+               <li><span class="highlight">Web Design</span></li>
+               <li><em>Content Creation</em></li>
+               <li><strong>Digital Marketing</strong></li>
+           </ul>
+        <div>
 
-        /* Styling paragraphs */
-        p {
-            line-height: 1.6;
-            color: #333;
-        }
-</style>
-</head>
-<body>
-    <h1>Welcome to My Profile</h1>
-        <!-- Adding an image -->
-    <img src="https://placekitten.com/300/200" alt="Profile picture">
-    
-    <h2>About Me</h2>
-    <p>Hello! I'm learning web development. This is my first webpage where I'm practicing HTML and CSS.</p>
-    
-    <h2>My Favourite Website</h2>
-    <u1>
-        <li><a href="https://www.github.com" target="_blank">GitHub</a></li>
-        <li><a href="https://www.wikipedia.org" target="_blank">Wikipedia</a></li>
-    </ul>
+        <div class="contact-section" id="contact">
+            <h2>Contact Us</h2>
+            <p>Get in touch: <span class="email">email@example.com</span></p>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+        <p>&copy; 2024 My Website</p>
+    </div>
 </body>
 </html>
+        
     
        
 
