@@ -50,6 +50,11 @@
             <p>Get in touch: <span class="email">email@example.com</span></p>
         </div>
     </div>
+    <div class="new section">
+        <h3>New Section</h3>
+        <p>This is <span style="color: #ff6b6b;">colored text</span> and     <span style="font-weight: bold;">bold
+    text</span>.</p>
+    </div>
 
     <!-- Footer Section -->
     <div class="footer">
