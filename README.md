@@ -52,8 +52,7 @@
     </div>
     <div class="new section">
         <h3>New Section</h3>
-        <p>This is <span style="color: #ff6b6b;">colored text</span> and     <span style="font-weight: bold;">bold
-    text</span>.</p>
+        <p>This is <span style="text-decoration: underline;">underline</span> and     <span style="text-decoration: line-through;">strikethrough</span> text.</         p>
     </div>
 
     <!-- Footer Section -->
