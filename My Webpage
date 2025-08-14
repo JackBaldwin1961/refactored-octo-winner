@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the wonders of the open sea with The Great Sea Tours. Join us for unforgettable adventures and breathtaking views.">
+    <meta name="keywords" content="sea tours, boat tours, scenic cruises, adventure tours, wildlife watching, fishing expeditions, private charters">
+    <meta name="author" content="The Great Sea Tours">
+   <title>the Great Sea Tours</title>
+   <link rel="stylesheet" href="style.css" />
+   <link rel="stylesheet" href= home.html>
+   <link rel="stylesheet" href="Service.html">
+   <link rel="stylesheet" href="Contactus.html">
+    <link rel="stylesheet" href="AboutUs.html">
+    <link rel="stylesheet" href="Gallery.html">
+    <link rel="stylesheet" href="Blog.html">
+  </head>
+  <style>
+    html, body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-image: url('Luxuryyatch.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
+      color: white;
+      text-align: center;
+  } 
+
+   .section {
+     padding: 60px 20px;
+     background-color: rgba(0, 0, 255, 0.6);
+     margin: 20px auto;
+     width: 80%;
+     border-radius: 10px;
+  }
+
+  h1 {
+    font-size: 4rem;
+    color: white;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    line-height: 10vh;
+  }
+
+   h2 {
+     font-size: 32px;
+     margin-bottom: 10px;
+  }
+
+  p  {
+     font-size: 18px;
+  }
+ </style>
+</head>
+<body> 
+
+     <!-- This is the top navigation section -->
+    
+     <nav>
+      <ul>
+        <li><a href="#Home.html">Home</a></li>
+        <li><a href="#Service.html">Service</a></li>
+        <li><a href="#Contactus.html">Contact Us</a></li>
+        <li><a href="#AboutUs.html">About Us</a></li>
+        <li><a href="#Gallery.html">Gallery</a></li>
+        <li><a href="#Blog.html">Blog</a></li>
+      </ul>
+    </nav>
+    <br></br>
+
+     <!-- This is the header section -->
+
+    <header>
+      <div class="header-content" id="header">
+      <h1>The Great Sea Tours</h1>
+      <h2>Explore the Wonders of the Open Sea</h2>
+      <p>Join us for an unforgettable journey filled with breathtaking views and thrilling activities.</p>
+    </header>
+    </div>
+    
+    <button id="book-now">Book Now</button>
+    <button id="learn-more">Learn More</button>
+    
+  <br>
+ 
+  <!-- This is the services section -->
+
+    <div class="section" id="content" background-color="rgba(0, 0, 255, 0.6)">
+      <br>
+      <h2>Our Services</h2>
+      <nav>
+        <ul>
+          <li><a href="#BoatTours">Boat Tours</a></li>
+          <li><a href="#ScenicCruises">Scenic Cruises</a></li>
+          <li><a href="#AdventureTours">Adventure Tours</a></li>
+          <li><a href="#WildlifeWatching">Wildlife Watching</a></li>
+          <li><a href="#FishingExpeditions">Fishing Expeditions</a></li>
+          <li><a href="#PrivateCharters">Private Charters</a></li>
+        </ul>
+      </nav>
+      <p>Explore our wide range of services designed to make your sea adventure unforgettable.</p>
+    </br>
+    </div>
+
+     <!-- This is the chapter-section -->
+
+    <section><div id="chapter-section">
+      <div id="h2" >
+      </div>
+    </div>
+  </section>
+  </br>
+  <br>
+
+    <!-- This is the main content section -->
+    <div class="section" id="main-content">
+      <h2 id="GreatAdventure">Discover The Wonders Of The Open Sea</h2>
+      <p>
+        <large><mark>Welcome to the Great Sea Tours, adventure awaits you on the crystal open waters!</mark></large><br><q>Join us for an unforgettable 
+        journey filled with breathtaking views, thrilling activities, and the chance to explore the beauty of the sea.</q></br> Whether you're looking for 
+        a relaxing cruise or an action-packed expedition, we have something for 
+        everyone.<br><strong><mark>Book your tour today and set sail on a voyage of discovery!</mark></strong><sup>&reg;</sup></br>
+      </p>
+    </div>
+  </br>
+    <br></br>
+
+    <!-- This is the private charters section -->
+
+   <footer>
+    <div class="footer-content">
+      <nav>
+        <ul>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#Service">Service</a></li>
+          <li><a href="#Contact">Contact Us</a></li>
+          <li><a href="#About">About Us</a></li>
+          <li><a href="#Gallery">Gallery</a></li>
+          <li><a href="#Blog">Blog</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2023 The Great Sea Tours. All rights reserved.</p>
+      <p>Follow us on:
+        <a href="https://www.facebook.com/page/TheGreatSeaTours" target="_blank">facebook</a> |
+        <a href="https://www.instagram.com/TheGreatSeaTours" target="_blank">Instagram</a> |
+        <a href="https://www.twitter.com/TheGreatSeaTours" target="_blank">Twitter</a> |
+      </p> 
+  </footer>
+   </section>
+  </br>
+  </body>
+</html>
