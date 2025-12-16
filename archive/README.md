@@ -35,6 +35,11 @@ An email-friendly template using table layouts for compatability.
 - JavaScript
 - Git & GitHub
 
+**What I Learned:** Responsive layout planning and reusable CSS components.
+
+## About Me
+I'm a junior front-end developer focused on building clean, responsive interfaces while continuing to improve my JavaScript and React skills.
+
 ## Future Improvements
 - Add screenshots and live demo links
 - Improve accessibility and performance
