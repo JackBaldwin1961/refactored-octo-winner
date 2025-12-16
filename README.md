@@ -2,6 +2,11 @@
 
 This repository contains a collection of front-end projects i've built while learning HTML, CSS and JavaScript. Each project focuses on different core skills such as responsive layouts, UI design, forms, and writing with embedded maps.
 
+## 🌐 Live Demo
+
+🔗 View the live site here:
+https://jackbaldwin1961.github.io/refactored-octo
+
 ## Projects
 
 ### 1) Personal Portfolio Website
