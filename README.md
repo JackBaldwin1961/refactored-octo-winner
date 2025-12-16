@@ -15,7 +15,7 @@ A responsive portfolio site to showcase projects, skills, and contact details.
 
 ### 2) Cyberpunk Gaming Dashboard UI
 A cyberpunk-themed dashboard layout using cards, buttons and sections.
-**Tech:** HTML, CSS (Ui layout)
+**Tech:** HTML, CSS (UI layout)
 
 ### 3) Google Maps Embed / Styling
 A small project showing how to embed a Google Map and style the container layout.
