@@ -98,10 +98,10 @@ h3,
 
 /* tiny glitch wiggle */
 @keyframes logo-glitch {
-    0%
+    0%,
     100% {
         transform: translate(0);
-        text-shadow: 0 0 8px rgba(0 229,255, 0.9),
+        text-shadow: 0 0 8px rgba(0, 229, 255, 0.9),
           0 0 14px rgba(255, 0, 229, 0.7);
     }
     8% {
@@ -193,7 +193,7 @@ h3,
     backdrop-filter: blur(10px);
     background: linear-gradient(
         90deg,
-        rgba(15, 23, 42, 0.92)
+        rgba(15, 23, 42, 0.92),
         rgba(15, 23, 42, 0.85)    
     );
     box-shadow: 0 0 20px rgba(0, 229, 255, 0.25);
@@ -236,7 +236,7 @@ h3,
 }
 
 /* Right side of topbar */
-topbar-right {
+.topbar-right {
     display: flex;
     align-items: center;
     gap: 14px;
@@ -611,45 +611,44 @@ button:disabled {
     .app {
         grid-template-columns: 72px minmax(0, 1fr);
     }
-}
 
-.logo-text {
-    display: none;
-}
+    .logo-text {
+        display: none;
+    }
 
-.nav-item {
-    font-size: 0.75rem;
-    padding-inline: 10px;
-}
+    .nav-item {
+        font-size: 0.75rem;
+        padding-inline: 10px;
+    }
 
-.sidebar {
-    padding-inline: 10px;
-}
+    .sidebar {
+        padding-inline: 10px;
+    }
 
-.topbar {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 10px;
-}
+    .topbar {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 10px;
+    }
 
-.search-wrapper {
-    max-width: 100%;
-}
+    .search-wrapper {
+        max-width: 100%;
+    }
 
-.welcome-card {
-    flex-direction: column;
-    align-items: flex-start;
-}
+    .welcome-card {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 
-.cards-grid,
-.middle-grid,
-.bottom-grid {
-    grid-template-columns: 1fr;
-}
+    .cards-grid,
+    .middle-grid,
+    .bottom-grid {
+        grid-template-columns: 1fr;
+    }
 
-.current-game-body {
-    flex-direction: column;
-}
+    .current-game-body {
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 600px) {
