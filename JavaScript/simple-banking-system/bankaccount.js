@@ -7,19 +7,19 @@ export class BankAccount {
 
     deposit(amount) {
         this.balance += amount;
-        console.log('${this.accountHolder} deposited £${amount} ');
+        console.log('${this.accountHolderName} deposited £${amount} ');
     }
 
     withdraw(amount) {
         if (amount > this.balance) {
-            console.log('Insufficient funds for ${this.accountHolder}');
+            console.log('Insufficient funds for ${this.accountHolderName} to withdraw £${amount} ');
         } else {
             this.balance -= amount;
-            console.log('${this.accountHolder} withdrew £${amount} ');
+            console.log('${this.accountHolderName} withdrew £${amount} ');
         }
     }
 }
 
 checkBalance() {
-    console.log('${this.accountHolder} has a balance of £${this.balance} ');
+    console.log('${this.accountHolderName} has a balance of £${this.balance} ');
 }

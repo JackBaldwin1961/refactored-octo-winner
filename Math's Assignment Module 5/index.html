@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Average Numbers Assignment</title>
+</head>
+<body>
+    <h1>Average Numbers Assignment</h1>
+    <p>Enter numbers separated by commas:</p>
+    <input type="text" id="numbersInput" placeholder="e.g. 1, 2, 3, 4, 5">
+    <button onclick="calculateAverage()">Calculate Average</button>
+    <p id="result"></p>
+
+    <script>
+        function calculateAverage() {
+            const input = document.getElementById('numbersInput').value;
+            const numbers = input.split(',').map(num => parseFloat(num.trim()));
+            const sum = numbers.reduce((acc, num) => acc + num, 0);
+            const average = sum / numbers.length;
+            document.getElementById('result').textContent = `The average is: ${average}`;
+        }
+    </script>
+</body>
+</html>
