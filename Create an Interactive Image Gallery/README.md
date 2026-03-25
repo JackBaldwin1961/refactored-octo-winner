@@ -29,7 +29,7 @@
 
  Code
 
- interactive-image-gallery/
+ Create an interactive-image-gallery/
  – index.html
  – style.css
  – script.js
