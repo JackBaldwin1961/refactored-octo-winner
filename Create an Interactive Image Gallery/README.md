@@ -29,7 +29,8 @@
 
  Code
 
- Create an interactive-image-gallery/
+refactored-octo-winner/
+ |— Create an interactive-image-gallery/
  – index.html
  – style.css
  – script.js
