@@ -7,6 +7,16 @@ A simple and clean To-Do List application built with HTML, CSS, and JavaScript
 - Remove tasks
 - Clean and responsive design
 - Dynamic task updates using JavaScript
+- Tasks saved using localStorage (data persists after refresh)
+
+## Key Features Explained
+
+### Local Storage (Data Persistence)
+This app uses localStorage to save tasks in the browser.
+Even after refreshing the page, the tasks remain.
+
+- 'JSON.stringify()' is used to store the tasks array
+- 'JSON.parse()' is used to retrieve the data
 
 ## Technologies Used
 - HTML
@@ -20,6 +30,7 @@ This project helped me practice:
 - Functions
 - Event handling
 - Creating and removing HTML elements dynamically
+- Using localStorage to persist data
 
 ## How to Run
 1. Open the project folder in VS Code

@@ -9,6 +9,10 @@ function addTask() {
   if (taskText !== "") {
     tasks.push(taskText);
     taskInput.value = "";
+
+    // SAVE to localStorage
+    localStorage.setItem('tasks', JSON.stringify(tasks));
+
     displayTasks();
   } else {
     alert("Please enter a task.");
@@ -42,5 +46,17 @@ function displayTasks() {
 function removeTask(index) {
   // Remove the task from the tasks array
   tasks.splice(index, 1);
+  // UPDATE localStorage
+  localStorage.setItem('tasks', JSON.stringify(tasks));
   displayTasks();
-}  
+}
+
+// Load tasks when page loads
+window.onload = function() {
+  let storedTasks = localStorage.getItem('tasks');
+
+  if (storedTasks) {
+    tasks = JSON.parse(storedTasks);
+    displayTasks();
+  }
+};  
