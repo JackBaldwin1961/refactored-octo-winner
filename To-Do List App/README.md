@@ -29,6 +29,7 @@ This project helped me practice:
 ## Project Purpose
 This Project was built as part of my JavaScript learning journey to practice building interactive web applications.
 
-# Author
+## Author
 Jack Baldwin 
 Aspiring Junior Web Developer
+GitHub: [View Repository](https://github.com/JackBaldwin1961/refactored-octo-winner)
