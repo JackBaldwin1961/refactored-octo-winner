@@ -29,6 +29,11 @@ function displayTasks() {
  
     let span = document.createElement('span');
     span.textContent = tasks[i];
+
+    // Toggle completed class
+    span.onclick = function() {
+      span.classList.toggle('completed');
+    };
     
     let removeButton = document.createElement('button');
     removeButton.textContent = "Remove";
@@ -60,3 +65,9 @@ window.onload = function() {
     displayTasks();
   }
 };  
+
+document.getElementById("taskInput").addEventListener("keypress", function(event) {
+  if (event.key === "Enter") {
+    addTask();
+  }
+});

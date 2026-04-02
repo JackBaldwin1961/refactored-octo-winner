@@ -8,6 +8,8 @@ A simple and clean To-Do List application built with HTML, CSS, and JavaScript
 - Clean and responsive design
 - Dynamic task updates using JavaScript
 - Tasks saved using localStorage (data persists after refresh)
+- Press Enter to quickly add tasks
+- Mark tasks as completed (toggle)
 
 ## Key Features Explained
 
