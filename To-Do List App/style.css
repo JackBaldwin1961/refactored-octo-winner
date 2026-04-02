@@ -65,11 +65,6 @@ li {
     color: black;
 }
 
-li span {
-    flex: 1;
-    word-break: break-word;
-}
-
 li button {
     background: #e74c3c;
     padding: 8px 12px;
@@ -83,4 +78,33 @@ li button:hover {
 .completed {
     text-decoration: line-through;
     color: #888;
+}
+
+.button-group {
+    display: flex;
+    gap: 8px;
+    flex-shrink: 0;
+}
+
+li span {
+    flex: 1;
+    word-break: break-word;
+}
+
+.edit-btn {
+    background: #f39c12;
+    padding: 8px 12px;
+}
+
+.edit-btn:hover {
+    background: #d68910;
+}
+
+.remove-btn {
+    background: #e74c3c;
+    padding: 8px 12px;
+}
+
+.remove-btn:hover {
+    background: #c0392b;
 }

@@ -1,7 +1,7 @@
 // Array to store all tasks
 let tasks = [];
 
-// Function to add a new task
+// Add a task
 function addTask() {
   let taskInput = document.getElementById('taskInput');
   let taskText = taskInput.value.trim();
@@ -9,17 +9,14 @@ function addTask() {
   if (taskText !== "") {
     tasks.push(taskText);
     taskInput.value = "";
-
-    // SAVE to localStorage
     localStorage.setItem('tasks', JSON.stringify(tasks));
-
     displayTasks();
   } else {
     alert("Please enter a task.");
     }
 }
 
-// Function to display all tasks
+// Show all tasks
 function displayTasks() {
   let taskList = document.getElementById('taskList');
   taskList.innerHTML = "";
@@ -30,44 +27,70 @@ function displayTasks() {
     let span = document.createElement('span');
     span.textContent = tasks[i];
 
-    // Toggle completed class
     span.onclick = function() {
       span.classList.toggle('completed');
+    };
+
+    let buttonGroup = document.createElement('div');
+    buttonGroup.className = 'button-group';
+
+    let editButton = document.createElement('button');
+    editButton.textContent = "Edit";
+    editButton.className = 'edit-btn';
+    editButton.onclick = function() {
+        editTask(i);
     };
     
     let removeButton = document.createElement('button');
     removeButton.textContent = "Remove";
+    removeButton.className = 'remove-btn';
     removeButton.onclick = function() {
       removeTask(i);
     };
 
+    buttonGroup.appendChild(editButton);
+    buttonGroup.appendChild(removeButton);
+
     listItem.appendChild(span);
-    listItem.appendChild(removeButton);
+    listItem.appendChild(buttonGroup);
     taskList.appendChild(listItem);
   }
 }
 
-// Function to remove a task
+// Remove a task
 function removeTask(index) {
-  // Remove the task from the tasks array
   tasks.splice(index, 1);
   // UPDATE localStorage
   localStorage.setItem('tasks', JSON.stringify(tasks));
   displayTasks();
 }
 
+// Edit a task
+function editTask(index) {
+  let updatedTask = prompt("Edit your task:", tasks[index]);
+
+  if (updatedTask !== "") {
+    tasks[index] = updatedTask;
+    localStorage.setItem('tasks', JSON.stringify(tasks));
+    displayTasks();
+  } else {
+    alert("Task cannot be empty.");
+  }
+}
+
 // Load tasks when page loads
 window.onload = function() {
-  let storedTasks = localStorage.getItem('tasks');
+  let savedTasks = localStorage.getItem('tasks');
 
-  if (storedTasks) {
-    tasks = JSON.parse(storedTasks);
+  if (savedTasks) {
+    tasks = JSON.parse(savedTasks);
     displayTasks();
   }
 };  
 
-document.getElementById("taskInput").addEventListener("keypress", function(event) {
-  if (event.key === "Enter") {
+// Press Enter to add task
+document.getElementById("taskInput").addEventListener("keypress", function(e) {
+  if (e.key === "Enter") {
     addTask();
   }
 });
